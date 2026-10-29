@@ -3,12 +3,12 @@
 **🌐 Language / 语言 / Язык:** [English](README.md) · [简体中文](README.zh-CN.md) · [Русский](README.ru.md)
 
 ![Status](https://img.shields.io/badge/status-🟢_live-2ea44f?style=flat-square)
-[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)
+[![Engine](https://img.shields.io/badge/engine-shared_core-6e40c9?style=flat-square)](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg?style=flat-square&logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![CI](https://github.com/HarrierOnChain/Limitless-Exchange/actions/workflows/ci.yml/badge.svg)](https://github.com/HarrierOnChain/Limitless-Exchange/actions/workflows/ci.yml)
+[![CI](https://github.com/tarpboi/Limitless-Exchange/actions/workflows/ci.yml/badge.svg)](https://github.com/tarpboi/Limitless-Exchange/actions/workflows/ci.yml)
 
-> Автоматический **торговый бот Limitless** — Ончейн-стакан заявок. Часть набора [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits): одно ядро исполнения, один слой риска, все площадки.
+> Автоматический **торговый бот Limitless** — Ончейн-стакан заявок. Часть набора [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits): одно ядро исполнения, один слой риска, все площадки.
 
 **Limitless** уже **работает в продакшене** сегодня.
 
@@ -37,7 +37,7 @@
 | 📊 **Дисбаланс стакана** — сигнал *и есть* стакан заявок, без внешних фидов |
 | 📈 **Сбор спреда** — тысяча выигрышей по 0,5¢ складываются в одно число |
 
-> Нужна стратегия, не указанная здесь для Limitless? Покрытие адаптеров определяется спросом — [напишите](https://t.me/HarrierOnChain).
+> Нужна стратегия, не указанная здесь для Limitless? Покрытие адаптеров определяется спросом — [напишите](https://t.me/tarpboi).
 
 ---
 
@@ -46,7 +46,7 @@
 Клонируйте, добавьте ключи и запустите — TUI даст выбрать стратегию.
 
 ```bash
-git clone https://github.com/HarrierOnChain/Limitless-Exchange.git
+git clone https://github.com/tarpboi/Limitless-Exchange.git
 cd Limitless-Exchange
 cp config.example.yaml config.yaml   # add your keys
 cargo run --release                  # launch the TUI
@@ -59,7 +59,7 @@ cargo run --release                  # launch the TUI
 
 Этот репозиторий — точка входа для **Limitless**. Ядро исполнения, слой риска и все 20+ адаптеров площадок находятся в основном наборе:
 
-### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)** — полный набор
+### 👉 **[Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)** — полный набор
 
 | | |
 |---|---|
@@ -76,9 +76,9 @@ cargo run --release                  # launch the TUI
 
 | Платформа | Ссылка |
 |----------|------|
-| **Полный набор** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits) |
-| **Telegram** | [@HarrierOnChain](https://t.me/HarrierOnChain) |
-| **Обсуждения** | [GitHub Discussions](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
+| **Полный набор** | [Prediction-Markets-Trading-Bot-Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits) |
+| **Telegram** | [@tarpboi](https://t.me/tarpboi) |
+| **Обсуждения** | [GitHub Discussions](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits/discussions) |
 
 *Обычно отвечаем в течение нескольких часов.*
 
@@ -86,9 +86,9 @@ cargo run --release                  # launch the TUI
 
 ## Связанные площадки
 
-[Kalshi](https://github.com/HarrierOnChain/Kalshi) · [Polymarket](https://github.com/HarrierOnChain/Polymarket) · [Augur](https://github.com/HarrierOnChain/Augur) · [Interactive Brokers ForecastTrader](https://github.com/HarrierOnChain/Interactive-Brokers-ForecastTrader)
+[Kalshi](https://github.com/tarpboi/Kalshi) · [Polymarket](https://github.com/tarpboi/Polymarket) · [Augur](https://github.com/tarpboi/Augur) · [Interactive Brokers ForecastTrader](https://github.com/tarpboi/Interactive-Brokers-ForecastTrader)
 
-> Полный каталог площадок — в [основном наборе →](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
+> Полный каталог площадок — в [основном наборе →](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits#venue-coverage)
 
 ---
 
@@ -100,8 +100,8 @@ cargo run --release                  # launch the TUI
 
 <div align="center">
 
-**Торговый бот Limitless · построен на движке [Prediction Market Toolkits](https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits)**
+**Торговый бот Limitless · построен на движке [Prediction Market Toolkits](https://github.com/tarpboi/Prediction-Markets-Trading-Bot-Toolkits)**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@HarrierOnChain-26A5E4?style=flat-square&logo=telegram)](https://t.me/HarrierOnChain)
+[![Telegram](https://img.shields.io/badge/Telegram-@tarpboi-26A5E4?style=flat-square&logo=telegram)](https://t.me/tarpboi)
 
 </div>
